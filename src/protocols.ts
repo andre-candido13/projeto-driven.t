@@ -1,3 +1,7 @@
+export type cepAdd = {
+  cep: string;
+};
+
 export type ApplicationError = {
   name: string;
   message: string;
